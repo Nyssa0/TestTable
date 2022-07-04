@@ -8,12 +8,12 @@
 <body>
 <h1>Headers</h1>
 
-<table>
+<table class="test">
     <caption>Exemples de rendez-vous</caption>
     <thead>
     <tr>
         <th>Heure</th>
-        <th colspan="3" id="lundi">Lundi</th>
+        <th class="test" colspan="3" id="lundi">Lundi</th>
         <th colspan="2" id="mardi">Mardi</th>
         <th colspan="3" id="mercredi">Mercredi</th>
         <th colspan="3" id="jeudi">Jeudi</th>
@@ -23,26 +23,26 @@
     </tr>
     <tr>
         <th></th>
-        <th id="staff1">Staff 1</th>
-        <th id="staff2">Staff 2</th>
-        <th id="staff3">Staff 3</th>
-        <th id="staff1">Staff 1</th>
-        <th id="staff2">Staff 2</th>
-        <th id="staff1">Staff 1</th>
-        <th id="staff2">Staff 2</th>
-        <th id="staff3">Staff 3</th>
-        <th id="staff1">Staff 1</th>
-        <th id="staff2">Staff 2</th>
-        <th id="staff3">Staff 3</th>
-        <th id="staff1">Staff 1</th>
-        <th id="staff2">Staff 2</th>
-        <th id="staff3">Staff 3</th>
-        <th id="staff1">Staff 1</th>
-        <th id="staff2">Staff 2</th>
-        <th id="staff3">Staff 3</th>
-        <th id="staff1">Staff 1</th>
-        <th id="staff2">Staff 2</th>
-        <th id="staff3">Staff 3</th>
+        <th class="impair" id="staff1">Staff 1</th>
+        <th class="impair" id="staff2">Staff 2</th>
+        <th class="impair" id="staff3">Staff 3</th>
+        <th class="pair" id="staff4">Staff 1</th>
+        <th class="pair" id="staff5">Staff 2</th>
+        <th class="impair" id="staff6">Staff 1</th>
+        <th class="impair" id="staff7">Staff 2</th>
+        <th class="impair" id="staff8">Staff 3</th>
+        <th class="pair" id="staff">Staff 1</th>
+        <th class="pair" id="staff">Staff 2</th>
+        <th class="pair" id="staff">Staff 3</th>
+        <th class="impair" id="staff">Staff 1</th>
+        <th class="impair" id="staff">Staff 2</th>
+        <th class="impair" id="staff">Staff 3</th>
+        <th class="pair" id="staff">Staff 1</th>
+        <th class="pair" id="staff">Staff 2</th>
+        <th class="pair" id="staff">Staff 3</th>
+        <th class="impair" id="staff">Staff 1</th>
+        <th class="impair" id="staff">Staff 2</th>
+        <th class="impair" id="staff">Staff 3</th>
     </tr>
     </thead>
     <tbody>
@@ -56,17 +56,17 @@
         </td>
         <td headers="lundi 8h00 staff2"></td>
         <td headers="lundi 8h00 staff3"></td>
-        <td headers="mardi 8h00 staff1"></td>
-        <td headers="mardi 8h00 staff2">
+        <td headers="mardi 8h00 staff4"></td>
+        <td headers="mardi 8h00 staff5">
             <p>RDV 2</p>
             <p>Salle 1</p>
         </td>
-        <td headers="mercredi 8h00 staff1">
+        <td headers="mercredi 8h00 staff6">
             <p>RDV 3</p>
             <p>Salle 2</p>
         </td>
-        <td headers="mercredi 8h00 staff2"></td>
-        <td headers="mercredi 8h00 staff3">
+        <td headers="mercredi 8h00 staff7"></td>
+        <td headers="mercredi 8h00 staff8">
             <p>RDV 4</p>
             <p>Salle 5</p>
         </td>
@@ -161,5 +161,7 @@
     </tr>
     </tbody>
 </table>
+<script src="script.js"></script>
+
 </body>
 </html>
